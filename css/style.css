@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.content-body{
+    margin-top: 100px;
+}
+
+.btn-primary{
+    background-color: #15296b !important;
+    border-color: #5473b7 !important;
+}
+
+.btn-primary:hover{
+    background-color: #217b9e !important;
+    border-color: #b01616 !important;
+}
+
+.card-header, .card-footer{
+    background-color: #251c2d;
+    color: #ffffff;
+}
+
+input, select{
+    box-shadow: none !important;
+}
+
+input:focus{
+    border-color: #8a2be2 !important;
+}
+
+label{
+    position: relative;
+    top: 14px;
+    background: #ffffff;
+    color: #671919;
+    margin: 0 12px;
+    padding: 0 0px;
+    font-size: 15px;
+}
+
+::after{
+    display: none !important;
+}
+
+form a{
+    color: #1e42d2 !important;
+}
